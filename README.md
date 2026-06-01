@@ -1,29 +1,32 @@
-# Udacity-Project-Explore-US-Bikeshare-Data
-Project 2, Udacity's Data Analyst Nanodegree
+# Udacity - Explore US Bikeshare Data
+**My First Data Analysis Project**
 
 ## Description
-In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
+In this project, I used Python to explore data related to bike share systems for three major cities in the United States: Chicago, New York City, and Washington. I wrote a script that imports data, calculates descriptive statistics, and provides an interactive experience in the terminal.
 
-## Rubric
+## What's Inside this Project
+This repository contains my implementation of the bikeshare analysis tool. Here are the key features:
 
-### Code Quality
-| CRITERIA | MEETS SPECIFICATIONS |
-| :--- | :--- |
-| **Functionality of code** | All code cells can be run without error. |
-| **Choice of data types and structures** | Appropriate data types (e.g. strings, floats) and data structures (e.g. lists, dictionaries) are chosen to carry out the required analysis tasks. |
-| **Use of loops and conditional statements** | Loops and conditional statements are used to process the data correctly. |
-| **Use of packages** | Packages are used to carry out advanced tasks. |
-| **Use of functions** | Functions are used to reduce repetitive code. |
-| **Use of good coding practices** | Docstrings, comments, and variable names enable readability of the code. |
+*   **Interactive User Interface:** The script asks for your input to choose a city and filter the data by month or day.
+*   **Time Statistics:** It calculates the most frequent travel times (most common month, day of the week, and start hour).
+*   **Station Statistics:** It identifies the most popular start and end stations, as well as the most common trip path.
+*   **Trip Duration Statistics:** It calculates the total and average travel time, formatted into hours, minutes, and seconds.
+*   **User Information:** It provides a breakdown of user types, and (where available) gender and birth year statistics.
+*   **Data Safety:** Specifically handles the Washington dataset which is missing gender and birth year columns.
+*   **Raw Data Viewer:** Allows you to see the actual data 5 rows at a time if you're curious about the details!
 
-### Script and Questions
-| CRITERIA | MEETS SPECIFICATIONS |
-| :--- | :--- |
-| **Solicit and handle raw user input** | Raw input is solicited and handled correctly to guide the interactive question-answering experience; no errors are thrown when unexpected input is entered. |
-| **Use descriptive statistics to answer questions about the data. Raw data is displayed upon request by the user.** | Descriptive statistics are correctly computed and used to answer the questions posed about the data. Raw data is displayed upon request by the user in this manner: Script should prompt the user if they want to see 5 lines of raw data, display that data if the answer is 'yes', and continue these prompts and displays until the user says 'no'. |
+## Project Files
+- `bikeshare.py`: The main Python script containing all the analytical logic.
+- `.gitignore`: Ensures large data files are kept out of the repository.
+- `README.md`: This file, explaining the project.
+- `readme.txt`: A text-version of the documentation.
 
-## Project files
-- `bikeshare.py` - final project
-- `chicago.zip` - dataset used for analysis (zipped csv file)
-- `new_york_city.zip` - dataset used for analysis (zipped csv file)
-- `washington.zip` - dataset used for analysis (zipped csv file)
+## Rubric Highlights
+This project was built to meet the following standards:
+- **Functionality:** All code runs without errors.
+- **Data Handling:** Uses Pandas and NumPy for efficient data processing.
+- **Input Validation:** Gracefully handles user typos and invalid inputs.
+- **Clean Code:** Uses functions, clear variable names, and comments for readability.
+
+---
+*Developed as part of Udacity's Data Analyst Nanodegree Program.*
