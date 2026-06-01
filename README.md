@@ -1,61 +1,29 @@
-# US Bikeshare Data Explorer
+# Udacity-Project-Explore-US-Bikeshare-Data
+Project 2, Udacity's Data Analyst Nanodegree
 
-An interactive Python script to explore US bikeshare data for Chicago, New York City, and Washington.
+## Description
+In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
-## Project Description
-This project was developed as part of the Udacity Data Analyst Nanodegree. It provides an interactive command-line experience where users can filter and analyze bikeshare data to uncover trends such as:
-- Popular travel times (Month, Day, Hour)
-- Station usage (Start, End, and most frequent trips)
-- Trip duration metrics (Total and Average)
-- User demographics (Type, Gender, and Birth Year)
+## Rubric
 
-## Prerequisites
-To run this project, you will need to have Python installed on your system along with the following libraries:
-- [Python 3.x](https://www.python.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [NumPy](https://numpy.org/)
+### Code Quality
+| CRITERIA | MEETS SPECIFICATIONS |
+| :--- | :--- |
+| **Functionality of code** | All code cells can be run without error. |
+| **Choice of data types and structures** | Appropriate data types (e.g. strings, floats) and data structures (e.g. lists, dictionaries) are chosen to carry out the required analysis tasks. |
+| **Use of loops and conditional statements** | Loops and conditional statements are used to process the data correctly. |
+| **Use of packages** | Packages are used to carry out advanced tasks. |
+| **Use of functions** | Functions are used to reduce repetitive code. |
+| **Use of good coding practices** | Docstrings, comments, and variable names enable readability of the code. |
 
-## Installation & Setup
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-   cd YOUR_REPOSITORY_NAME
-   ```
+### Script and Questions
+| CRITERIA | MEETS SPECIFICATIONS |
+| :--- | :--- |
+| **Solicit and handle raw user input** | Raw input is solicited and handled correctly to guide the interactive question-answering experience; no errors are thrown when unexpected input is entered. |
+| **Use descriptive statistics to answer questions about the data. Raw data is displayed upon request by the user.** | Descriptive statistics are correctly computed and used to answer the questions posed about the data. Raw data is displayed upon request by the user in this manner: Script should prompt the user if they want to see 5 lines of raw data, display that data if the answer is 'yes', and continue these prompts and displays until the user says 'no'. |
 
-2. **Install dependencies:**
-   ```bash
-   pip install pandas numpy
-   ```
-
-3. **Data Files:**
-   Ensure the following CSV files are present in the project directory:
-   - `chicago.csv`
-   - `new_york_city.csv`
-   - `washington.csv`
-
-## Usage
-Run the script using the following command:
-```bash
-python bikeshare.py
-```
-
-### Interactive Prompts
-Upon running the script, you will be prompted to:
-1. **Select a City:** Chicago, New York City, or Washington.
-2. **Select a Month:** All, January, February, March, April, May, or June.
-3. **Select a Day:** All, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday.
-
-The script will then calculate and display the statistics for your chosen filters. You will also have the option to view 5 rows of raw data at a time.
-
-## Dataset Details
-The data is provided by [Motivate](https://www.motivateco.com/), a bikeshare system provider for many major cities in the United States. The datasets contain information for the first six months of 2017.
-
-> **Note:** The Washington dataset does not contain 'Gender' or 'Birth Year' information. The script is designed to handle this gracefully.
-
-## Author
-- [Your Name] - Udacity Data Analyst Nanodegree
-
-## Credits & Resources
-- [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
-- [Stack Overflow](https://stackoverflow.com/)
-- Udacity Data Analyst Nanodegree Program
+## Project files
+- `bikeshare.py` - final project
+- `chicago.zip` - dataset used for analysis (zipped csv file)
+- `new_york_city.zip` - dataset used for analysis (zipped csv file)
+- `washington.zip` - dataset used for analysis (zipped csv file)
